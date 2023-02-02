@@ -1,0 +1,98 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(30, 38%, 92%);
+}
+
+main {
+    display: flex;
+    background-color: #fff;
+    width: 700px;
+    height: 500px;
+    border: 1px solid none;
+    border-radius: 15px;
+}
+
+.mainContent {
+    display: flex;
+    flex-direction: column;
+}
+
+.mainContent h1 {
+    font-size: 2.8em;
+    font-family: "Fraunces", "sans-serif";
+    font-weight: 700;
+    margin: .8em;
+}
+
+.mainContent h2 p {
+    font-family: "Fraunces", sans-serif;
+}
+
+.perfume {
+    color: hsl(228, 12%, 48%);
+    font-size: 1.1em;
+    position: relative;
+    top: 1.2em;
+    left: 2.2em;
+}
+
+.mainParagraph {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    color: hsl(228, 12%, 48%);
+    font-size: 1rem;
+    display: flex;
+    position: relative;
+    left: 2.5em;
+    bottom: 1em;
+    
+}
+
+main img {
+    width: 350px;
+    border: 1px solid none;
+    border-radius: 15px 0px 0px 15px;
+}
+
+main button {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1em;
+    background-color: hsl(158, 36%, 37%);
+    border-radius: 1em;
+    color: #fff;
+    width: 18em;
+    padding: 1em;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    align-items: center;
+    margin: 1em 2em;
+    transition: .5s;
+}
+
+main button:hover {
+    background-color: hsl(30, 38%, 92%);
+    color: #333;
+}
+
+.priceMain {
+    font-family: "Fraunces", sans-serif;
+    font-size: 2.1em;
+    font-weight: 700;
+    color: hsl(158, 36%, 37%);
+    display: flex;
+    margin: .3em 1.1em;
+}
+
+.priceMainCrossed {
+    font-family: "Montserrat", sans-serif;
+    font-size: .4em;
+    font-weight: 200;
+    color: hsl(228, 12%, 48%);
+    display: flex;
+    position: relative;
+    top: 1em;
+    left: 1em;
+}
